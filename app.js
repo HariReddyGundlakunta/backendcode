@@ -115,7 +115,7 @@ app.delete(["/todos/:id", "/todos/:id/"], async(request, response) => {
 
 
     await db.run(query, id);
-    response.send("Todo Deleted Successfuly");
+    response.send("Todo Delete Successfuly");
 });
 
 module.exports = app;
